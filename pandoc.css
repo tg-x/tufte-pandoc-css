@@ -1,3 +1,7 @@
+article {
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
 
 /* For smart quotes */
 q { quotes: "“" "”" "‘" "’"; }
@@ -78,6 +82,20 @@ pre:not(.sourceCode) code {
 /* Math formatting */
 .katex {
   font-size: inherit !important;
+}
+
+
+/* References */
+
+#refs .csl-entry {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    padding-right: 0;
+    vertical-align: baseline;
+}
+
+#refs .csl-entry div {
+    display: inline;
 }
 
 /* Wrap long URLs in references */
