@@ -24,9 +24,11 @@ TMPL := $(TP_CSS)/tufte.html5
 STYLES := \
 	$(T_CSS)/tufte.css \
 	$(TP_CSS)/pandoc.css \
-	$(TP_CSS)/pandoc-solarized.css \
 	$(TP_CSS)/tufte-extra.css \
 	$(TP_CSS)/hyphens.css
+
+# solarized theme for code blocks
+#	$(TP_CSS)/pandoc-solarized.css \
 
 # other CSS
 STYLES_X := \
