@@ -59,6 +59,7 @@ svg: $(SVG)
 		--to html5+smart \
 		$(shell test -e $<.yaml && echo --metadata-file=$<.yaml) \
 		--template $(TMPL) \
+		--highlight-style=monochrome \
 		$(CITEPROC_OPT) \
 		$(SIDENOTE_OPT) \
 		$(foreach style,$(STYLES),--css $(subst %,,$(patsubst %,../,$(subst /,%,$(subst ./,,$(dir $@)))))$(CSS)/$(notdir $(style))) \
